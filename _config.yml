@@ -3,7 +3,7 @@ title: Karl Redgate
 tagline: Principal Engineer and Architect
 author:
   name: Karl N. Redgate
-  email: karl.redgate@gmail.com
+  email: Karl.Redgate@gmail.com
   givenName: Karl
   familyName: Redgate
   twitter: kredgate
@@ -15,18 +15,7 @@ repo: https://github.com/karlredgate
 # these are available to liquid filters with: site.author.givenName, etc
 
 ## Functional configuration 
-url: http://linkedin.com/kredgate
+markdown: rdiscount
 permalink: /:year/:month/:day/:title.html
-redirects: yes
+url: http://linkedin.com/in/kredgate
 exclude: [ _posts/source/, _posts/_private/ ]
-
-markdown: pandoc
-pandoc:
-   extensions: [smart, mathjax]
-
-
-# analytics: UA-18401403-1
-
-#markdown: redcarpet2
-#redcarpet:
-#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
