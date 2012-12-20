@@ -17,5 +17,5 @@ repo: https://github.com/karlredgate
 ## Functional configuration 
 markdown: rdiscount
 permalink: /:year/:month/:day/:title.html
-url: http://linkedin.com/in/kredgate
+url: http://karlredgate.github.com/
 exclude: [ _posts/source/, _posts/_private/ ]
